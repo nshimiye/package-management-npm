@@ -1,0 +1,17 @@
+{
+  "name": "npm-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/wrapper-moment"
+  ],
+  "dependencies": {
+    "wrapper-moment": "^1.0.0"
+  }
+}
